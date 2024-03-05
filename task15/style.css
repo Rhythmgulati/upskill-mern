@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 17vh;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    font-size:2.3rem;
+    font-weight: 500;
+}
+header h1 span{
+    text-transform: capitalize;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 83vh;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #767676;
+    border-radius: 5px;
+}
+.box:hover{
+    border: 1.3px solid black;
+}
+input{
+   padding: 10px 5px;
+   outline: none;
+}
+button{
+    padding:10px 5px;
+}

@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    transition: all .5s;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 170px;
+}
+.nav-center{
+    display: flex;
+    gap: 20px;
+}
+.logout-btn{
+     padding: 6px 10px;
+}
+
+
+main{
+    height: 88vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    height: 80vh;
+    width: 38%;
+}
+.left-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-card-top , .left-card-bottom{
+    height: 49%;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.input-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.input-container:nth-child(1){
+    width: 100%;
+}
+.input-container:nth-child(2),.input-container:nth-child(3){
+    width: 49%;
+}
+.input-container input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.booknow-btn{
+    padding: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(83, 83, 255);
+    border-radius: 5px;
+}
+.table-container{
+    height: 65%;
+    border-color: aqua;
+    overflow-y: scroll;
+     border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 20px 0;
+}
+.left-card-top table{
+    width: 100%;
+    height: 100%; 
+    padding: 5px;
+   text-align: start;
+}
+.left-card-top table thead{
+    height: 20%;
+    background-color: whitesmoke;
+}
+.left-card-top table tbody{
+    color: gray;
+}
+.left-card-top h2 span{
+    float: right;
+}
+.tablebody-container{
+    height: 40%;
+    overflow: scroll;
+}
+.additemsfirst{
+    color: red;
+    text-align: center;
+}
+.right-card{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+.service-container img{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.service-container{
+    height: 85%;
+    margin: 10px;
+}
+.service-card{
+   height: 80%;
+   margin: 20px 0;
+   border-top: 1px solid black;
+   padding: 10px;
+   border-bottom: 1px solid black;
+}
+.service-card h1{
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+.service-card h1 span{
+    color: rgb(127, 197, 255);
+    float: right;
+}
+.skip-btn{
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: red;
+    font-size: 1.2rem;
+    background-color: rgba(255, 0, 0, 0.284);
+    width: 40%;
+}
+.additem-btn{
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: rgb(0, 218, 0);
+    background-color: rgba(2, 221, 2, 0.316);
+    width: 59%;
+}
+
+

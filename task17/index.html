@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-left">
+           <h1>Logo</h1>
+        </div>
+        <div class="nav-center">
+           <a href="">Home</a>
+           <a href="">Services</a>
+           <a href="">Contact Us</a>
+           <a href="">About Us</a>
+        </div>
+        <div class="nav-right">
+           <button class="logout-btn">Username<span><i class="ri-logout-box-r-line"></i></span></button>
+        </div>
+    </header>
+    <main>
+        <div class="left-card card">
+            <div class="left-card-top">
+               <h2>Added Items</h2>
+               <div class="table-container"> 
+               <table>
+                 <thead>
+                    <tr>
+                        <td styte="width: 10%;">S.No</td>
+                        <td styte="width: 70%;">Service Name</td>
+                        <td styte="width: 20%;">Price</td>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                     <!-- <tr>
+                        <td styte="width: 10%;">1</td>
+                        <td style="width:70%">Dry Cleaning</td>
+                        <td style="width: 20%">200.00</td>
+                     </tr>
+                     <tr>
+                        <td styte="width: 10%;">1</td>
+                        <td style="width:70%">Dry Cleaning</td>
+                        <td style="width: 20%">200.00</td>
+                     </tr>
+                      -->
+                    </tbody>
+               
+        
+               </table>
+            </div> 
+               <h2>Total Amount: <span class="totalamt">₹00.00</span></h2>
+            </div>
+              <div class="left-card-bottom">
+                <h2>Book Now</h2>
+                <form class="bookingform">
+                    <div class="input-container">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter Fullname " requires>
+                    </div>
+                    <div class="input-container">
+                        <label for="email">Name:</label>
+                        <input type="text" id="email" placeholder="mail@gmail.com " required>
+                    </div>
+                    <div class="input-container">
+                        <label for="mno">Phone Number:</label>
+                        <input type="text" id="mno" placeholder="0000000000 " required>
+                    </div>
+                    <button type="submit" class="booknow-btn">Book now</button>
+                </form>
+                <p class="additemsfirst"></p>
+              </div>
+        </div>
+        <div class="right-card card">
+            <h2>Browse Our Services</h2>
+            <p>Click on the add to cart button to add services to your cart or press skip item</p>
+           
+            <div class="service-card">
+                <div class="service-container">
+                <img src="https://cdn.pixabay.com/photo/2019/12/16/10/49/building-4699096_640.jpg" alt="">
+                <h1>Wedding Dress Cleaning: <span>Rs2400.00</span></h1>
+               </div>
+                <button class="skip-btn">Skip Item -</button>
+                <button class="additem-btn">Add item +</button>              
+            </div>
+            <p>Add the items to cart and Book now</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
